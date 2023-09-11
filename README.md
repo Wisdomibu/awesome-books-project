@@ -32,7 +32,7 @@ For more information on the importance of a professional README for your reposit
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>awesome books</b></h3>
 
 </div>
 
@@ -62,11 +62,11 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [awesome books] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Portfolio]** is a simple HTML and CSS project of a website that would be used to showcase various projects I have done.
+**[awesome books]** is a HTML, CSS and javascript project that creates a booklist based off user input
 
 ## 🛠 Built With <a name="html, css and javascript">html, css and javascript</a>
 
