@@ -32,7 +32,7 @@ For more information on the importance of a professional README for your reposit
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
-  <h3><b>awesome books</b></h3>
+  <h3><b>Awesome books</b></h3>
 
 </div>
 
@@ -59,20 +59,14 @@ For more information on the importance of a professional README for your reposit
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
 <!-- PROJECT DESCRIPTION -->
-
 # 📖 [awesome books] <a name="about-project"></a>
-
 > Describe your project in 1 or 2 sentences.
-
-**[awesome books]** is a HTML, CSS and javascript project that creates a booklist based off user input
+**[awesome books]** is a HTML, CSS and javascript project that creates a booklist based off user input.
 
 ## 🛠 Built With <a name="html, css and javascript">html, css and javascript</a>
 
 ### Tech Stack <a name="MERN">MERN</a>
-
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -82,15 +76,11 @@ For more information on the importance of a professional README for your reposit
 
   </ul>
 </details>
-
-
 <!-- Features -->
-
 ### Key Features <a name="key-features"></a>
-
-- input fields
-- add button
-- delete button
+- Input fields
+- Add button
+- Remove button
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +88,7 @@ For more information on the importance of a professional README for your reposit
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://wisdomibu.github.io/awesome-books-project/
+[Live Demo](https://wisdomibu.github.io/awesome-books-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,35 +116,9 @@ Clone this repository to your desired folder:
 run this commands:
 
 ```sh
-  cd my-folder
-  https://github.com/Wisdomibu/awesome-books-project.git
-```
-
-### Install
-
-Install this project with:
-
-
-Example command:
-
-```sh
+  git clone https://github.com/Wisdomibu/awesome-books-project.git
   cd awesome-books-project
 ```
-### Usage
-
-To run the project, execute the following command:
-
-open index.html with vscode and run live server extension to view the project.
-
-
-### Run tests
-
-To run tests, run the following command:
-
-> coming soon
-
-### Deployment
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -183,30 +147,15 @@ To run tests, run the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
-
-- [ ] Links to projects
-- [ ] Contact information
-- [ ] Add more styles
+- [ ] Make it dynamic
+- [ ] Add high fidelity wireframes style
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
-
-
 If you like this project just give a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -215,16 +164,11 @@ If you like this project just give a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Gift.
+I would like to thank Gift Olukoju for her support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
-
 This project is [MIT](./LICENSE) licensed.
 
 
