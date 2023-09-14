@@ -1,6 +1,14 @@
 const textWrapper = document.querySelector('.textWrapper');
 const addBtn = document.querySelector('#btn');
 const input = document.querySelectorAll('.input');
+const list = document.getElementById('list');
+const addNew = document.getElementById('new');
+const contact = document.getElementById('contact');
+const form = document.querySelector('form')
+const title = document.querySelector('.title')
+const line = document.querySelector('.line')
+const h1 = document.querySelector("h1")
+const contactInfo = document.querySelector('#contact-info')
 
 class BookList {
   constructor() {
@@ -59,3 +67,44 @@ class BookList {
 
 const books = new BookList();
 books.loadBooks();
+
+list.addEventListener('click', ()=>{
+  form.style.display = "none"
+  title.style.display = "none"
+  textWrapper.style.display ='block'
+  contactInfo.style.display = "none"
+  
+})
+
+addNew.addEventListener('click', ()=>{
+ textWrapper.style.display = 'none';
+ line.style.display = 'none'
+ h1.style.display = 'none'
+ form.style.display= 'flex'
+ contactInfo.style.display = "none"
+
+})
+
+contact.addEventListener('click', ()=>{
+  textWrapper.style.display = 'none';
+  form.style.display = "none"
+  title.style.display = "none"
+  contactInfo.style.display = "block"
+  h1.style.display = 'none'
+
+info()
+})
+
+function info(){
+  let information = "";
+information += `
+<h3>Contact Information</h3>
+<p> Do you have any question or you just want to say "hello"?<br>You can reach out to us!</p>
+<ul class="contactList">
+<li>Our e-mail: mail@mail.com</li>
+<li>Our phone number: 0043586534422</li>
+<li>Our address: Streetnam 22, 84503 City, Country</li>
+</ul>
+`
+  contactInfo.innerHTML = information
+}

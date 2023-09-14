@@ -7,24 +7,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="container">
-      <h1>All awesome Book</h1>
-      <section class="textWrapper btnDiv"> 
-        <div class="bookName">
-        <!-- <h3>Effortless</h3>
-        <p>A.j Hoge</p>  -->
+    <header>
+      <nav>
+        <div>Awesome Books</div>
+          <ul class="navList">
+            <li><a id="list" href="#">List</a> </li>
+            <li><a id="new" href="#">Add new</a> </li>
+            <li><a id="contact" href="#">Contact</a> </li>
+          </ul>
+      </nav>
+      <p class="time">March 19th 2021, 9:25:32 am</p>
+    </header>
+    <section id="body">
+      <section class="container">
+        <h1>All awesome Book</h1>
+        <section class="textWrapper btnDiv"> 
+          <div class="bookName">
+          <!-- <h3>Effortless</h3>
+          <p>A.j Hoge</p>  -->
+          </div>
+          <!-- <button>Remove</button> -->
+          <!-- ======== create Element and append it ======== -->
+        </section>
+        <div class="title">
+          <div class="line"></div>
+        <h2>Add a new book</h2>
         </div>
-        <!-- <button>Remove</button> -->
-        <!-- ======== create Element and append it ======== -->
-      </section>
-      <div class="line"></div>
-      <h2>Add a new book</h2>
 
-      <form action="#">
-        <input type="text" placeholder="Title" class="input" />
-        <input type="text" placeholder="Author" class="input" />
-        <button id="btn">Add</button>
-      </form>
+        <form action="#">
+          <input type="text" placeholder="Title" class="input" />
+          <input type="text" placeholder="Author" class="input" />
+          <button id="btn">Add</button>
+        </form>
+      </section>
+      <section id="contact-info">
+
+      </section>
     </section>
     <script src="script.js"></script>
   </body>
